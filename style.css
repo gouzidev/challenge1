@@ -92,12 +92,14 @@ body
 .profile .address
 {
     font-weight: lighter;
+    text-align: center;
     font-weight: bold;
     color: greenyellow;
 }
 
 .profile .saying
 {
+    text-align: center;
 
 }
 
@@ -119,4 +121,29 @@ body
     height: 3.3rem;
     border-radius: 0.6rem;
     margin-bottom: 1rem;
+}
+
+@media (max-width: 375px)
+{
+    .card
+    {
+        width: 60vw;
+    }
+    
+    .profile  .name
+    {
+        font-size: 1rem;
+    }
+    .profile  .address
+    {
+        font-size: 0.8rem;
+    }
+    .profile  .saying
+    {
+        font-size: 0.6rem;
+    }
+    .links
+    {
+        font-size: 0.7rem;
+    }
 }
